@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+python-multipart
+sqlalchemy
+psycopg2-binary
+pydantic
+openai
+faiss-cpu
+python-dotenv
+aiofiles
+python-docx
+langchain

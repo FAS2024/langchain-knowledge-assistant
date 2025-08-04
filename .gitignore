@@ -1,0 +1,70 @@
+# ========================
+# Global
+# ========================
+.DS_Store
+Thumbs.db
+*.log
+*.pyc
+*.pyo
+__pycache__/
+.env
+.env.*
+!.env.example
+
+# ========================
+# Python / FastAPI (Backend)
+# ========================
+/backend/__pycache__/
+/backend/*.py[cod]
+/backend/.mypy_cache/
+/backend/.pytest_cache/
+/backend/.venv/
+/backend/env/
+/backend/venv/
+/backend/instance/
+/backend/uploads/
+/backend/data/faiss_index/
+
+# SQLite or local DB (if any)
+*.sqlite3
+
+# ========================
+# Node / React (Frontend)
+# ========================
+/frontend/node_modules/
+/frontend/.env
+/frontend/.env.*
+!/frontend/.env.example
+/frontend/build/
+/frontend/dist/
+/frontend/.next/
+/frontend/.cache/
+
+# Log files
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# ========================
+# Docker
+# ========================
+*.pid
+*.seed
+docker-compose.override.yml
+
+# ========================
+# VSCode / IDE
+# ========================
+.vscode/
+.idea/
+*.swp
+
+# ========================
+# OS-specific
+# ========================
+ehthumbs.db
+Icon?
+
+
+# Vite cache
+/frontend/.vite/
